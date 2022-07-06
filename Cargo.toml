@@ -9,6 +9,9 @@ members = ["libexample"]
 
 [dependencies]
 libexample = { path = "libexample", version = "0.1.0" }
+structopt = "0.3.26"
+libloading = "0.7"
 
 [build-dependencies]
-bindgen = "0.60.1"
+
+
